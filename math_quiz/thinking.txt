@@ -1,0 +1,178 @@
+1.
+Adott egy négyzet, amelyben egy kör van úgy elhelyezve, hogy a kör középpontja a négyzet közepén található. Jelöljük a kör sugarát R-rel. Mivel a kör pontosan belefér a négyzetbe, a négyzet oldalhossza 2-szer R.
+
+A négyzet jobb felső sarkában van egy téglalap, amelynek oldalai 1 és 2 egység hosszúak. A téglalap egyik sarka pont érinti a kört. Ha a négyzet bal alsó sarkát tekintjük koordináta-rendszer kezdőpontjának, akkor a kör középpontja a (R, R) pontban helyezkedik el.
+
+A téglalap érintési pontjának koordinátái a négyzet jobb felső sarka felé visszaszámolva: az x koordináta 2R - 1, az y koordináta 2R - 2.
+
+Mivel ez a pont rajta van a körön, a távolsága a kör középpontjától pontosan R. Ezért felírjuk, hogy a pont és a középpont távolsága:
+
+√\[(2R - 1 - R)² + (2R - 2 - R)²] = R.
+
+Egyszerűsítve:
+
+√\[(R - 1)² + (R - 2)²] = R.
+
+Mindkét oldalt négyzetre emelve:
+
+(R - 1)² + (R - 2)² = R².
+
+Kibontva és összevonva a tagokat kapjuk:
+
+2R² - 6R + 5 = R².
+
+Átrendezve:
+
+R² - 6R + 5 = 0.
+
+Az egyenlet megoldásaként két értéket kapunk: R = 1 vagy R = 5.
+
+A geometriai feltételek alapján a megfelelő megoldás R = 5, azaz a kör sugara 5 egység. Ez azt jelenti, hogy a négyzet oldalhossza 10 egység.
+
+Tehát a kör sugara 5 egység.
+
+
+
+2. 
+
+
+Az 4**x + 6**x = 9**x egyenlet megoldása:
+
+(Az egyenletet osztjuk 9**x-el, így ki tudjuk emelni az x-et az egyenletből (hatványozás azonosságai))
+
+(4/9)**x + (6/9)**x = 1
+
+Az második egyenletnél egyszerűsítünk:
+(6/9)**x = (2/3)**x
+
+Mivel az első egyenletnél négyzetszámok vannak a számlálóban és nevezőben is, átalakíthatjuk hatványként a két számot, s ezt a hatványt kiemeljük (hatványozás azonosságai).
+
+
+(4/9)**x = (2/3)**x**2 
+
+így kifejezhetünk egy új ismeretlent: (2/3)**x = y
+
+y**2 + y = 1
+y**2 + y - 1 = 0
+
+y1 = 0,618
+y2 = -1,61
+A másodfokú egyenlet megoldóképlete szerint két megoldást kapunk, de mivel egy pozítiv szám hatványozásánál csak pozítiv szám jöhet létre, így y2 nem valós megoldás.
+(2/3)** x = 0,618
+tízes alapú logaritmust alkalmazva mindkét oldalon
+
+log10((2/3)**x) = log10(0,618) (Az x-et ki tudjuk emelni (logaritmus azonosságai))
+x * log10(2/3) = log10(0,618)
+
+x = (log10(0618)) / (log10(2/3)) 
+x = kb. 1,187
+Ellenőrzés:
+
+4**1,187 + 6**1,187 = 9**1,187 (kerekítés)
+13,57 = 13,57
+Az egyenlet megoldása x = 1,187. 
+
+
+
+3.
+
+S = 1/(√1 + √2) + 1/(√2+√3) + 1/(√3+√4) + … + 1/(√99 + √100) S meghatározása:
+
+Konjugált szorzat segítségével (A számlálót és nevezőt is szorozzuk a nevező konjugáltjával):
+pl.
+1/(√1 + √2) = √2 - √1
+1/(√2 + √3) = √3 - √2
+és így tovább.
+(√2 - √1) + (√3 - √2) + (√4 - √3) + ... + (√100 - √99) = S
+Az összevonás során sok tag kiesik, így marad nekünk √100 - √1 ami 10-1 = 9.
+Azaz az összeg S = 9.
+
+
+ 
+
+4.
+** = a hatványozás jelölése
+* = a szorzás jelölése
+Az egyenlet (n**2)**n - 2*n**n + 1 = 0 megoldási lépései:
+
+A hatványozás azonosságait alkalmazva:
+(n**2)**n = (n**n)**2
+
+A nevezetes azonosságokat alkalmazva:
+
+(n**n)**2 - 2n**n + 1 = (n**n - 1)**2
+
+(n**n - 1)**2 = 0
+
+négyzetgyököt vonva két oldalból:
+
+n**n - 1 = 0
+n**n = 1
+n = 1
+ell: 1**1 = 1 (igaz)
+-1 ** -1 = -1 (hamis)
+Az egyenlet egyetlen megoldása 1.
+
+
+5.
+Asztal + macska - teknős = 170 cm
+Asztal + teknős - macska = 130 cm.
+
+A kettő egyenletet összeadva
+
+2* asztal + macska - macska + teknős - teknős = 170 + 130 cm
+(Összevonás)
+2 * asztal = 300 cm
+Asztal = 150 cm.
+Az asztal 150 cm magas.
+
+
+6. A macskát jelöljük x-nek.
+   Az egeret jelöljük y-nak.
+   A kutyát jelöljük z-nek.
+
+   x + y = 10
+   y + z = 20
+   x + z = 24
+   
+   Ez egy háromismeretlenes egyenletrendszer.
+   A harmadik egyenletből az első egyenletet kivonva megkapjuk hogy (x+z) - (x+y) = 24 - 10
+
+ z - y = 14
+ z = 14 + y
+
+  A második egyenletbe behelyettesítve:
+  y + 14 + y = 20
+  2y + 14 = 20
+  2y = 6
+  y = 3 (az egér súlya)
+  Az első egyenletbe behelyettesítve:
+  x + 3 = 10
+  x = 7
+  A harmadik egyenletbe behelyettesítve:
+  7 + z = 24
+  z = 17
+
+Ellenőrzés:
+
+  7 + 3 = 10 (igaz) 
+  3 + 17 = 20 (igaz)
+  7 + 17 = 24 (igaz)
+ 
+A három állat súlya: 7 + 3 + 17 = 27 kg.
+
+
+
+7.
+
+Annak hogy Anna első dobásnál nyer: 1/6 
+Annak hogy a harmadik dobásnál nyer (előtte Balázs dobott, s nem hatost): 5/6 * 5/6 * 1/6 = (5/6)**2 + 1/6
+Annak hogy az ötödik dobásnál nyer 
+5/6 * 5/6 * 5/6 * 5/6 * 1/6 = (5/6) ** 4 * 1/6
+Ez egy konvergens mértani sor, ahol q = (5/6)**2 = 25/36, a1 = 1/6
+
+Az összegképlet szerint S = a1 / (1-q)
+
+Behelyettesítve:
+S = (1/6)/(1-(25/36)) = 6/11.
+Anna nyerési esélye 6/11.
