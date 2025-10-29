@@ -43,7 +43,7 @@ if __name__ == "__main__":
     with open('./input.txt', 'r') as f:
         raw_input = f.read()
 
-    # Az eredeti bemenet kiírása (ahogy kérted)
+    # Az eredeti bemenet kiírása
     print(raw_input)
 
     # Bemenet Python adattípussá alakítása
